@@ -1,5 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Good data management
+* [Lookups](lookups/readme.md)
+  * [Create a lookup table](lookups/create_lookup.md)
+  * 
 
