@@ -19,5 +19,5 @@
    * [Add icons to Process Dashboard](process_mapping/add_icons_to_process_dashboard.md)
 * [Surveys and Webforms](surveys_and_webforms/readme.md)
    * [OrgVue interfaces overview](surveys_and_webforms/orgvue_interfaces_overview.md)
-   * Webforms
+   * [Webforms](surveys_and_webforms/webforms.md)
 
