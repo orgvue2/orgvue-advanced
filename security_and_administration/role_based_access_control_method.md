@@ -40,6 +40,8 @@ Only listed roles (and admins) can see the dataset, though others may be able to
 
 RBAC can be implemented at property level within a dataset. To limit a user’s access to dataset properties based on role, use the property ‘Security’ options in the Edit Property dialogue.
 
+![](A1-006.RBACpropertylevel.png)
+
 | Access | Description |
 | -- | -- |
 | Default | Dataset/ property can be accessed and edited by anyone tagged as “edit:….”|
@@ -51,6 +53,8 @@ RBAC can be implemented at property level within a dataset. To limit a user’s 
 **
 
 Tagging the property in a similar way to datasets allows access to specific users. In this example, the default security is set to Hidden – normal users will not see this property (including when it is used in expressions). However, users tagged as ‘hrsecure’ will be able to view and edit this property.
+
+![](A1-007.RBACpropertylevel2.png)
 
 | Access | Tag example |
 | -- | -- |
@@ -79,8 +83,7 @@ OrgVue is cautious by default.
 
 Tags are used for access control and also interacting with datasets. The following lists some basic ones. 
 
-| private:<user_role(s)>
- | Example | Scope | Difficulty | Description|
+| private:<user_role(s)>| Example | Scope | Difficulty | Description|
 | -- | -- | -- | -- | -- |
 | view:<user_role(s)>| view:ops|Dataset | Standard | Listed roles can view the dataset only|
 | update:<user_role(s)>| update:hr,finance| Dataset |Standard | Listed roles can update cell values but not properties|
