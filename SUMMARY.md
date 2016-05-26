@@ -13,5 +13,4 @@
 * [Responsibility mapping](responsibility_mapping/readme.md)
    * [Links](responsibility_mapping/links.md)
    * [Exercise: RAS mapping](responsibility_mapping/exercise_ras_mapping.md)
-* [Process mapping (Links - Numbers)](process_mapping.md)
 
