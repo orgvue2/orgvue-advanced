@@ -16,4 +16,5 @@
 * [Process mapping (Links - numbers)](process_mapping/readme.md)
    * [Exercise: Activity Analysis](process_mapping/exercise_activity_analysis.md)
    * [Exercise: Process re-design](process_mapping/exercise_process_re-design.md)
+   * Add icons to Process Dashboard
 
