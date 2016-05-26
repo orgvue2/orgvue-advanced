@@ -15,7 +15,8 @@ Using RBAC method, the dataset owner or Admin can set the level of Users' access
 
 3. Set a permission group's access level to a dataset using Tags
     * Select a dataset from the Home Screen and click on ‘Tags..’ icon at the top-right
-    * Using ‘Apply tag’ dialogue, set appropriate access levels for a permission group
+Only listed roles (and admins) can see the dataset, though others may be able to edit it (useful for webforms and branches)
+Using ‘Apply tag’ dialogue, set appropriate access levels for a permission group
     * Tags are displayed along with dataset name and date modified
 
 **Note: You can Tag a dataset to be Viewed or Edited by multiple permission groups**
@@ -59,11 +60,12 @@ OrgVue is cautious by default.
 3. For non-private datasets, setting a property to **‘View only'** or **‘Update only'** will restrict access
 
 **Interaction between dataset and property level
-**##Tags
+##Tags
 
 Tags are used for access control and also interacting with datasets. The following lists some basic ones. 
 
-| Tag | Example | Scope | Difficulty | Description|
+| private:<user_role(s)>
+ | Example | Scope | Difficulty | Description|
 | -- | -- | -- | -- | -- |
 | view:<user_role(s)>| view:ops|Dataset | Standard | Listed roles can view the dataset only|
 | update:<user_role(s)>| update:hr,finance| Dataset |Standard | Listed roles can update cell values but not properties|
@@ -72,3 +74,16 @@ Tags are used for access control and also interacting with datasets. The followi
 | lookup |  | Dataset | Standard | Flag a dataset outside the Lookups tab as a lookup |
 | template |  | Dataset | Standard | Allow a dataset to be copied from the home screen|
 | survey |  | Dataset | Advanced | Automatically applied by OrgVue to surveys|
+
+There also a range of tags to further customise the behaviour of datasets and properties.
+
+  | Tag | Example | Scope | Difficulty | Description |
+| -- | -- | -- | -- | -- |
+| owner:<user_role(s)>|owner:hr,finance,ops|Dataset | Advanced | Listed roles can only view and edit nodes that are labelled with their role in a ‘Owner’ property |
+| private:<user_role(s)>| private:hr| Dataset | Advanced | Only listed roles (and admins) can see the dataset, though others may be able to edit it (useful for webforms and branches)|
+| 0:4 | 1:4 | Dataset | Expert | 4:4 |
+| 0:5 | 1:5 | Dataset | Expert | 4:5 |
+| 0:6 | 1:6 | Dataset | Expert | 4:6 |
+| 0:7 | 1:7 | Dataset | Expert | 4:7 |
+| 0:8 | 1:8 | Property | Advanced | 4:8 |
+| 0:9 | 1:9 | Property | Advanced | 4:9 |
