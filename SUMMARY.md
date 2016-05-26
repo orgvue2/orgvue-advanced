@@ -20,4 +20,5 @@
 * [Surveys and Webforms](surveys_and_webforms/readme.md)
    * [OrgVue interfaces overview](surveys_and_webforms/orgvue_interfaces_overview.md)
    * [Webforms](surveys_and_webforms/webforms.md)
+   * Surveys
 
