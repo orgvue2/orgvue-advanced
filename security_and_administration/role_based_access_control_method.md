@@ -124,7 +124,8 @@ To edit data in a field, you must be
 * The owner of the dataset, **OR**
 
 * The dataset must be tagged update / edit:<user_role> **AND**
-The property you are trying to edit is not set as ‘hidden’ or ‘read only’ in the dataset
+
+* The property you are trying to edit is not set as ‘hidden’ or ‘read only’ in the dataset
 
 
 
