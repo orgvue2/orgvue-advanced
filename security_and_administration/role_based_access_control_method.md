@@ -68,6 +68,6 @@ Tags are used for access control and also interacting with datasets. The followi
 | view:<user_role(s)>| view:ops|Dataset | Standard | Listed roles can view the dataset only|
 | update:<user_role(s)>| update:hr,finance| Dataset |Standard | Listed roles can update cell values but not properties|
 | edit:<user_role(s)>| edit:seniorhr| Dataset| Standard | Listed roles can edit cells and Properties|
-| 0:5 | 1:5 | 2:5 | 3:5 | 4:5 |
-| 0:6 | 1:6 | 2:6 | 3:6 | 4:6 |
+| fav | | Dataset | Standard | Put the dataset in the Favourites tab for all users|
+| lookup | 1:6 | Dataset | Standard | Allow a dataset to be copied from the home screen |
 | 0:7 | 1:7 | 2:7 | 3:7 | 4:7 |
