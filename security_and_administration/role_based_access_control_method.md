@@ -34,10 +34,45 @@ RBAC can be implemented at property level within a dataset. To limit a user’s 
 **Note: setting a property to ‘Hidden’ will mean that standard users cannot colour by it or use it in any expressions.
 **
 
+Tagging the property in a similar way to datasets allows access to specific users. In this example, the default security is set to Hidden – normal users will not see this property (including when it is used in expressions). However, users tagged as ‘hrsecure’ will be able to view and edit this property.
 
+| Access | Tag example |
+| -- | -- |
+| Invisible | (no tag) |
+| Read only | view: hrgeneral|
+| Update only| update: hranalyst|
+| Edit | edit:hrsecure|
 
+**Note: tagging properties uses the same formats as datasets.
+**
 
+##Key rules to permissions
 
+There are key rules to help you understand how RBAC works between datasets and properties.
 
+**Key rules to permissions**
 
+OrgVue is cautious by default.
+
+1. **‘Hidden’/ ‘Private’** overrules other permissions, i.e., a private dataset is always hidden - a hidden property in a editable dataset is still hidden
+2. For non-hidden properties, setting a dataset to **‘View’** overrides any property-level security
+3. For non-private datasets, setting a property to **‘View only'** or **‘Update only'** will restrict access
+
+**Interaction between dataset and property level
+**
+
+##Tags
+
+Tags are used for access control and also interacting with datasets. The following lists some basic ones. 
+
+| Tag | Example | Scope | Difficulty | Description|
+| -- | -- | -- | -- | -- |
+| view:<user_role(s)>| view:ops
+ |Dataset | Standard | Listed roles can view the dataset only
+ |
+| 0:3 | 1:3 | 2:3 | 3:3 | 4:3 |
+| 0:4 | 1:4 | 2:4 | 3:4 | 4:4 |
+| 0:5 | 1:5 | 2:5 | 3:5 | 4:5 |
+| 0:6 | 1:6 | 2:6 | 3:6 | 4:6 |
+| 0:7 | 1:7 | 2:7 | 3:7 | 4:7 |
 
