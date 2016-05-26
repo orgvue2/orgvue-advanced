@@ -9,5 +9,5 @@
    * [Cloning Exercise: Re-organising sales department](scenario_modelling/cloning_exercise_re-organisin.md)
    * [Branching Exercise: Re-organisation by planning group](scenario_modelling/branching_exercise_re-organisation_by_planning_gro.md)
    * [Delta calculation](scenario_modelling/delta_calculation.md)
-   * Branching and Delta
+   * [Branching and Delta](scenario_modelling/branching_and_delta.md)
 
