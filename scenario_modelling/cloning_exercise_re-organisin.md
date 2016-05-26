@@ -1,2 +1,2 @@
-# [[](scenario_modelling/Cloning Exercise: Re-organising sales department.md)
+# Cloning Exercise: Re-organising sales department
 
