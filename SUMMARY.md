@@ -7,4 +7,5 @@
    * [Exercise: Payment Review](lookups/exercise_payment_review.md)
 * [Scenario modelling](scenario_modelling/readme.md)
    * [Cloning Exercise: Re-organising sales department](scenario_modelling/cloning_exercise_re-organisin.md)
+   * Branching Exercise: Re-organisation by planning group
 
