@@ -10,4 +10,5 @@
    * [Branching Exercise: Re-organisation by planning group](scenario_modelling/branching_exercise_re-organisation_by_planning_gro.md)
    * [Delta calculation](scenario_modelling/delta_calculation.md)
    * [Branching and Changes Report](scenario_modelling/branching_changes_report.md)
+* Responsibility mapping
 
