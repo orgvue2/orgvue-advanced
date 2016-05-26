@@ -6,5 +6,5 @@
    * [Set up lookups](lookups/set_up_lookups.md)
    * [Exercise: Payment Review](lookups/exercise_payment_review.md)
 * [Scenario modelling](scenario_modelling/readme.md)
-   * [[[](scenario_modelling/Cloning Exercise: Re-organising sales department.md)](scenario_modelling/cloning_exercise_re-organisin.md)
+   * [Cloning Exercise: Re-organising sales department](scenario_modelling/cloning_exercise_re-organisin.md)
 
