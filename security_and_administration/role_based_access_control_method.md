@@ -79,6 +79,8 @@ OrgVue is cautious by default.
 3. For non-private datasets, setting a property to **‘View only'** or **‘Update only'** will restrict access
 
 **Interaction between dataset and property level
+
+![](A1-008.RBACpermissionrules.png)
 ##Tags
 
 Tags are used for access control and also interacting with datasets. The following lists some basic ones. 
