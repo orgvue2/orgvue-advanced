@@ -69,5 +69,6 @@ Tags are used for access control and also interacting with datasets. The followi
 | update:<user_role(s)>| update:hr,finance| Dataset |Standard | Listed roles can update cell values but not properties|
 | edit:<user_role(s)>| edit:seniorhr| Dataset| Standard | Listed roles can edit cells and Properties|
 | fav | | Dataset | Standard | Put the dataset in the Favourites tab for all users|
-| lookup | 1:6 | Dataset | Standard | Allow a dataset to be copied from the home screen |
-| 0:7 | 1:7 | 2:7 | 3:7 | 4:7 |
+| lookup |  | Dataset | Standard | Flag a dataset outside the Lookups tab as a lookup |
+| template |  | Dataset | Standard | Allow a dataset to be copied from the home screen|
+| survey |  | Dataset | Advanced | Automatically applied by OrgVue to surveys|
