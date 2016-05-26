@@ -59,20 +59,16 @@ OrgVue is cautious by default.
 3. For non-private datasets, setting a property to **‘View only'** or **‘Update only'** will restrict access
 
 **Interaction between dataset and property level
-**
-
-##Tags
+**##Tags
 
 Tags are used for access control and also interacting with datasets. The following lists some basic ones. 
 
 | Tag | Example | Scope | Difficulty | Description|
 | -- | -- | -- | -- | -- |
-| view:<user_role(s)>| view:ops
- |Dataset | Standard | Listed roles can view the dataset only
- |
-| 0:3 | 1:3 | 2:3 | 3:3 | 4:3 |
-| 0:4 | 1:4 | 2:4 | 3:4 | 4:4 |
+| view:<user_role(s)>| view:ops|Dataset | Standard | Listed roles can view the dataset only|
+| update:<user_role(s)>| update:hr,finance| Dataset |Standard | Listed roles can update cell values but not properties|
+| edit:<user_role(s)>| edit:seniorhr| Dataset
+| Standard | Listed roles can edit cells and Properties|
 | 0:5 | 1:5 | 2:5 | 3:5 | 4:5 |
 | 0:6 | 1:6 | 2:6 | 3:6 | 4:6 |
 | 0:7 | 1:7 | 2:7 | 3:7 | 4:7 |
-
