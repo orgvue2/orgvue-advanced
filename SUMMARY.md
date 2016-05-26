@@ -22,5 +22,5 @@
    * [Webforms](surveys_and_webforms/webforms.md)
    * [Surveys](surveys_and_webforms/surveys.md)
    * [Tasks](surveys_and_webforms/tasks.md)
-   * Exercise: Survey on cycling
+   * [Exercise: Survey on cycling](surveys_and_webforms/exercise_survey_on_cycling.md)
 
