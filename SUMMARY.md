@@ -12,5 +12,5 @@
    * [Branching and Changes Report](scenario_modelling/branching_changes_report.md)
 * [Responsibility mapping](responsibility_mapping/readme.md)
    * [Links](responsibility_mapping/links.md)
-   * Exercise: RAS mapping
+   * [Exercise: RAS mapping](responsibility_mapping/exercise_ras_mapping.md)
 
