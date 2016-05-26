@@ -1,6 +1,11 @@
 # Summary
 
 * [Introduction](README.md)
+* [Security and administration](security_and_administration/readme.md)
+   * [Role Based Access Control method](security_and_administration/role_based_access_control_method.md)
+   * [Attribute Based Access Control method](security_and_administration/attribute_based_access_control_method.md)
+   * [Account administration](security_and_administration/account_administration.md)
+   * [OrgVue v2.20 scaling guidelines](security_and_administration/orgvue_v2.20_scaling_guidelines.md)
 * [Lookups](lookups/readme.md)
    * [Create a lookup table](lookups/create_lookup.md)
    * [Set up lookups](lookups/set_up_lookups.md)
@@ -24,9 +29,4 @@
    * [Tasks](surveys_and_webforms/tasks.md)
    * [Exercise: Survey on cycling](surveys_and_webforms/exercise_survey_on_cycling.md)
    * [Survey examples](surveys_and_webforms/survey_examples.md)
-* [Security and administration](security_and_administration/readme.md)
-   * [Role Based Access Control method](security_and_administration/role_based_access_control_method.md)
-   * [Attribute Based Access Control method](security_and_administration/attribute_based_access_control_method.md)
-   * [Account administration](security_and_administration/account_administration.md)
-   * [OrgVue v2.20 scaling guidelines](security_and_administration/orgvue_v2.20_scaling_guidelines.md)
 
