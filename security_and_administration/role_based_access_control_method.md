@@ -85,8 +85,7 @@ OrgVue is cautious by default.
 
 Tags are used for access control and also interacting with datasets. The following lists some basic ones. 
 
-| private:<user_role(s)>| Example | Scope | Difficulty | Description|
-| -- | -- | -- | -- | -- |
+| Tag | Description| Scope|Difficulty|Description |
 | view:<user_role(s)>| view:ops|Dataset | Standard | Listed roles can view the dataset only|
 | update:<user_role(s)>| update:hr,finance| Dataset |Standard | Listed roles can update cell values but not properties|
 | edit:<user_role(s)>| edit:seniorhr| Dataset| Standard | Listed roles can edit cells and Properties|
