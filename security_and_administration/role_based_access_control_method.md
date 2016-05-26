@@ -20,5 +20,24 @@ Using RBAC method, the dataset owner or Admin can set the level of Users' access
 
 **Note: You can Tag a dataset to be Viewed or Edited by multiple permission groups**
 
+##At Property Level
+
+RBAC can be implemented at property level within a dataset. To limit a user’s access to dataset properties based on role, use the property ‘Security’ options in the Edit Property dialogue.
+
+| Access | Description |
+| -- | -- |
+| Default | Dataset/ property can be accessed and edited by anyone tagged as “edit:….”|
+| Update only| Cell values can be updated but the structure (e.g. node hierarchy, property settings) cannot|
+| View only| Can be seen but not altered in any way|
+| Hidden | Cannot be seen by anyone other than admins and the dataset owner|
+
+**Note: setting a property to ‘Hidden’ will mean that standard users cannot colour by it or use it in any expressions.
+**
+
+
+
+
+
+
 
 
