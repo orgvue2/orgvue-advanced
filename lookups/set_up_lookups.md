@@ -54,7 +54,9 @@ Make sure the syntax is correct. Enclose each item for the drop-down in quotatio
 
 ![](A2-009.expmode2.png)
 
+The text labels on Pivot, Dashboard, Chart and etc. appear in the alphabetical order by default, e.g. High, Low, Neutral. The Expression mode helps you customise the order of the labels displayed as the labels will be sorted in the same order as defined in the square bracket, e.g. Low, High, Neutral. 
 
+![](A2-010.expmode3.png)
 
 
 
