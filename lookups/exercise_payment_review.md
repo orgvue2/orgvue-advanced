@@ -23,23 +23,26 @@ Identify the gap between actual and target salaries per department:
 
 ##How-to summary
 
-1. **Get actual salary in GBP**
-
-  a) **Look up** exchange rate for each country from Country dataset  
-  b) Create a property for salary in GBP using ** *Expressions* ** 
+1.
+**Get actual salary in GBP**
   
-2. **Get target salary by grade**
+  * **Look up** exchange rate for each country from Country dataset  
+  * Create a property for salary in GBP using ** *Expressions* ** 
+  
+2.
+**Get target salary by grade**
 
- **Look up** target salary for each employee based on grade
+ * **Look up** target salary for each employee based on grade
 
-3. **Capture the difference**
+3.
+**Capture the difference**
 
-Create a property fill in the gap between actual and target salary using ** *Expressions* **
+* Create a property fill in the gap between actual and target salary using ** *Expressions* **
 
-  4. **Visualise the gaps**
+4.**Visualise the gaps**
 
-  a) See the gap between the two in the Tree using **Color by**
-  b) See the gap by department / depth using **Chart**
+* See the gap between the two in the Tree using **Color by**
+* See the gap by department / depth using **Chart**
   
 ##Get exercise data into OrgVue 
 
