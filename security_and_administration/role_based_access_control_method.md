@@ -148,5 +148,9 @@ To edit data in a field, you must be
 
 * The property you are trying to edit is not set as ‘hidden’ or ‘read only’ in the dataset
 
+![](A1-0010.RBACwebforms2.png)
+
+
+
 
 
