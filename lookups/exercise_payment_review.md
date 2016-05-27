@@ -95,5 +95,43 @@ Now new ‘Salary GBP’ property is added and populated with values
 ![](A2-014.salaryGDP.png)
 
 
+###Look up target salary 
 
+1.
+Open up the Edit Property dialogue for the ‘Grade’ property
 
+2.
+Set ‘Dataset’ lookup mode and choose ‘Grade’ dataset; this allows the properties in the Grade lookup dataset to be imported to the main dataset
+
+3.
+Notice the two properties in the Grade (lookup) dataset are brought into the main dataset
+
+![](A2-015.targetsalary.png)
+
+##Calculate the difference between actual and target salary
+
+1.
+Add a property named ‘Salary Gap’ using the below Expression to automatically fill in the difference between actual and target salarynode.math("salarygbp-grade.targetsalarygbp")
+
+![](A2-016.salarygapcode.png)
+
+2.
+Notice that new ‘Salary Gap’ property is added and populated with values
+
+![](A2-017.salarygaptable.png)
+
+##Visualise the gaps 
+
+###Total salary gap for whole organisation
+
+Go to Chart view and create a bar chart showing total salary gap.  
+
+![](A2-018.salarygapbarchart.png)
+
+###Salary gap aggregated by area and department
+
+Chart the salary gap by area and department respectively.
+
+![](A2-019.salarygaparea.png)
+
+![](A2-019.salarygapdepartment.png)
