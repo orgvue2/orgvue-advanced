@@ -46,20 +46,53 @@ Identify the gap between actual and target salaries per department:
   
 ##Get exercise data into OrgVue 
 
-1. Open the Excel workbook for OrgVue Advaned Training
+1.
+Open the Excel workbook for OrgVue Advaned Training
 
-2. Find 3 sheets for this chapter:
+2.
+Find 3 sheets for this chapter:
 
   * 8.1 Payment review,
   * 8.2 Country (lookup)
   * 8.3 Grade (lookup)
 
-3.  In OrgVue, create a dataset named ‘Payment Review – [your name]’ in the People tab using ‘8.1 Payment review’ data sheet; this dataset will be the main dataset
+3.
+In OrgVue, create a dataset named ‘Payment Review – [your name]’ in the People tab using ‘8.1 Payment review’ data sheet; this dataset will be the main dataset
+
+4.
 Navigate to the Lookups tab, create 2 lookup datasets using ‘8.2 Country (lookup)’ and ‘8.3 Grade (lookup)’
 
+##Get actual salary in GBP
 
+###Look up local currency and exchange rate
 
+1.
+Go to the main dataset ‘Payment Review’, open up the Edit Property dialogue for the Country property
 
+2.
+Set ‘Dataset’ lookup mode and choose ‘Country’ dataset; this allows the properties in the Country lookup dataset to be imported to the main dataset
+
+3.
+Notice the two properties in the Country (lookup) dataset are brought into the main dataset
+
+![](A2-011.lookupcurrency.png)
+4.
+To see Local currency and Exchange rate from the lookup dataset in the Worksheet, simply check them from the Property list
+
+![](A2-012.lookupcurrency2.png)
+###Convert salary in local currency into GBP
+
+1.
+Create a new property named ‘Salary GBP’ using the below Expression to calculate converted:
+
+`salarynode.math("currentsalary*country.exchangerate")`
+
+![](A2-013.localcurrencycode.png)
+
+2.
+Now new ‘Salary GBP’ property is added and populated with values
+
+![](A2-014.salaryGDP.png)
 
 
 
