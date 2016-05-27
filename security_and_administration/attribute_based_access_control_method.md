@@ -15,6 +15,8 @@ e.g. 1: employees can only see people in their region
 
 e.g. 2: only HR can see employees with a salary of >£50k
 
+![](A1-0011.ABAClabel.png)
+
 2.
 **Hierarchy-based**
 
@@ -23,6 +25,11 @@ Users can see nodes based on their reporting relationship.
 e.g. 1: employees can only see themselves and their reports
 
 e.g. 2: users can only see nodes at depth > 3
+
+![](A1-0012.ABAChierarchy.png)
+
+**Note:** Label-based is more efficient and robust to data quality than hierarchy-based.
+
 
 #Rules
 
