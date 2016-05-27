@@ -135,3 +135,9 @@ Chart the salary gap by area and department respectively.
 ![](A2-019.salarygaparea.png)
 
 ![](A2-019.salarygapdepartment.png)
+
+###Average salary gap per role
+
+Chart the average salary gap per role.
+
+
