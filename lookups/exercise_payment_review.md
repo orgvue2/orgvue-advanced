@@ -134,10 +134,17 @@ Chart the salary gap by area and department respectively.
 
 ![](A2-019.salarygaparea.png)
 
-![](A2-019.salarygapdepartment.png)
+![](A2-020.salarygapdepartment.png)
 
 ###Average salary gap per role
 
 Chart the average salary gap per role.
 
 
+![](A2-021.averagesalarygapbyrole.png)
+
+###Salary gap by individual role
+
+Now let’s display the gaps within org tree. Navigate to Tree view, create an org chart colored by Salary Gap.
+
+![](A2-021.salarygapindividualrole.png)
