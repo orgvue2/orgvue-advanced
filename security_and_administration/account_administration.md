@@ -6,18 +6,18 @@ Admin can administer all user accounts through the Users Tab on the Home Screen.
 
 **Note:** There should only be one dataset storing a list of accounts and roles within the Users dataset. Please do not 'Save as' a second dataset - this creates duplicate users.
 
-![](A1-0013.usertab.png)
+![](A1-013.usertab.png)
 
 ##Open the Users Dataset
 In the users dataset you can see a list of all of the accounts that have access to this Tenant
 
-![](A1-0014.openuserdataset.png)
+![](A1-014.openuserdataset.png)
 
 ##Add a new account
 
 Add a New Account through the ‘Add Node’ option on the Property Pane.
 
-![](A1-0015.newaccount.png)
+![](A1-015.newaccount.png)
 
 ##Edit properties of the account node
 
@@ -32,13 +32,19 @@ Enabled: you can select between ‘true’ and ‘false’. To de-activate an ac
 3.
 Role: most accounts should be set up as a ‘User’ Role, which limits the datasets they can view and edit in the tenant. You can then assign single or multiple permission groups to an individual user.
 
+![](A1-016.editproperties.png)
+
 ##Send out OrgVue login details to the new user(s)
 
 Once you’ve configured the new accounts, save the dataset to send out OrgVue login details to the new Users. Only the users with ‘Enabled: true’ which have been newly-added to the list will receive an email from ‘donotreply@orgvue.com’ with login and password instructions.
 
+![](A1-017.sendlogin.png)
+
 ##Example email sent to new users
 
 Each new User will receive the following email from ‘donotreply@orgvue.com’, giving them login details.
+
+![](A1-018.exampleemail.png)
 
 ##Things to bear in mind in tagging and permissions 
 
