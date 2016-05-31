@@ -92,9 +92,12 @@ Some questions you might want to consider:
 
 
 1. Create a new property ‘Action’ and set ‘Initial Value as ‘Unchanged’
+![](3A-025.newprop.png)
 2. Configure Pivot table – Planning Group by Action
+![](3A-026.planninggroupaction.png)
 3. As we want to review and assign actions for one planning group at a time, filter it to ‘P&P’ using Filter Control
 
+![](3A-027.filtercontrol.png)
 
 
 
