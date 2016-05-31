@@ -117,4 +117,9 @@ Within the Roles dataset, set up new numerical property to quantify number of ac
 It can be useful to know the number of activities each role is Responsible for or required to Approve. The following expression will count the number of A or R links to an activity: 
 ```node.links.filter(n=>n.value=="R"||n.value=="A").count```
 
+##Identify the issues in accountability using charts
+
+Visualising number of linked activities by role help us to identify the roles involved in too many activities.
+
+
 
