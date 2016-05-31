@@ -15,7 +15,7 @@
    * [Cloning Exercise: Re-organising sales department](scenario_modelling/cloning_exercise_re-organisin.md)
    * [Branching Exercise: Re-organisation by planning group](scenario_modelling/branching_exercise_re-organisation_by_planning_gro.md)
    * [Delta calculation](scenario_modelling/delta_calculation.md)
-   * [Branching and Changes Report](scenario_modelling/branching_changes_report.md)
+   * [Branching and Changes Report](scenario_modelling/branchingchanges_report_md.md)
 * [Responsibility mapping](responsibility_mapping/readme.md)
    * [Links](responsibility_mapping/links.md)
    * [Exercise: RAS mapping](responsibility_mapping/exercise_ras_mapping.md)
