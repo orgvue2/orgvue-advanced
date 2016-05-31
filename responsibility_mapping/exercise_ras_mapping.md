@@ -121,5 +121,7 @@ It can be useful to know the number of activities each role is Responsible for o
 
 Visualising number of linked activities by role help us to identify the roles involved in too many activities.
 
+![](4A-023.accountabilityissueschart.png)
+
 
 
