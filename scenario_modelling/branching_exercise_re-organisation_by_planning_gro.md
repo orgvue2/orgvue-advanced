@@ -97,7 +97,14 @@ Some questions you might want to consider:
 ![](3A-026.planninggroupaction.png)
 3. As we want to review and assign actions for one planning group at a time, filter it to ‘P&P’ using Filter Control
 
-![](3A-027.filtercontrol.png)
+4. For this example, to make those under-performing with high absence instances redundant, change the column to Bradford Index and colour by Performance Ranking
+![](3A-028.bradfordindex.png)
+5. Assign those with Bradford Index higher than 600 and Performance Ranking lower than 6 ‘Redundant’ by drag-drop 
+![](3A-029.bradfordredundant.png)
+6. After having completed P&P, move on to other planning group and assign actions based on review taking into account the key questions
+
+7. Take out the applied filters and review the actions determined by planning group 
+![](3A-030.bradfordreview.png)
 
 
 
