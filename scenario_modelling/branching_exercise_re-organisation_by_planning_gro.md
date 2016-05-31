@@ -39,6 +39,23 @@
 1. View the areas affected by changes using various visualisations in **Tree view**
 2. Use **Changes Report  Dashboard** to see the differences against the baseline (original scenario)
 
+##Get exercise data into OrgVue 
+
+1. Open the Excel workbook for OrgVue Advaned Training
+2. Find a data sheet for this chapter:
+     1505 (clean)
+3. In OrgVue, create a dataset named ‘Delta Roles – [your name]’ in the Roles tab using the ‘1505 (clean)’ data sheet; this will be your baseline dataset
+
+##Set up a branch 
+
+###Create a branched dataset
+
+1. Open a baseline dataset and click on the ‘Save-As’ to create a branched dataset from it; this will prompt ‘Save as…’ dialoge
+2. Give a name to the branch as ‘Delta Branch – [your name]’ and make sure to check ‘Create branch’ option
+![](3A-021.createbrancheddataset.png)
+3. The branched dataset is stored in the ‘Branches’ section along with other branches
+
+![](3A-022.createbrancheddataset2.png)
 
 
 
