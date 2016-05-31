@@ -110,5 +110,11 @@ Visualising the number of linked departments helps identify activities that are 
 
 Within the Roles dataset, set up new numerical property to quantify number of activities associated with each role. Add a new property called ‘Number Of Activities Linked’ using the syntax: ```node.links.count``` – it counts the number of linked activities for each of the roles.
 
+![](4A-022.quantifyactivityroles.png)
+
+**To count number of linked activities through R and A:**
+
+It can be useful to know the number of activities each role is Responsible for or required to Approve. The following expression will count the number of A or R links to an activity: 
+```node.links.filter(n=>n.value=="R"||n.value=="A").count```
 
 
