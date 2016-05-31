@@ -98,6 +98,7 @@ Some questions you might want to consider:
 3. As we want to review and assign actions for one planning group at a time, filter it to ‘P&P’ using Filter Control
 
 4. For this example, to make those under-performing with high absence instances redundant, change the column to Bradford Index and colour by Performance Ranking
+  * **Note:** Bradford Index is a measure of absenteeism. It weights the number of absent instances higher than the total duration
 ![](3A-028.bradfordindex.png)
 5. Assign those with Bradford Index higher than 600 and Performance Ranking lower than 6 ‘Redundant’ by drag-drop 
 ![](3A-029.bradfordredundant.png)
@@ -106,12 +107,30 @@ Some questions you might want to consider:
 7. Take out the applied filters and review the actions determined by planning group 
 ![](3A-030.bradfordreview.png)
 
+##Visualise the impact
 
+###Org Chart
 
+1. Navigate to Tree view and choose the ‘Sunburst’ layout
+2. Select properties to be displayed in each Card
+3. Colour by ‘Action’ 
 
+![](3A-031.orgchart.png)
 
+###Changes Report
 
+See net effects of changes from various dimensions using Changes Report :
+1. Navigate to Dashboard view and choose ‘Changes Report’
+2. Configure summary and breakdown of changes
 
+![](3A-032.changesreport.png)
+
+You can copy data out from ‘Changes Report’ to a spreadsheet:
+
+1. Drag the    ![](3A-033.clipboardicon.png)      icon below each table onto the ‘Clipboard’ icon on Property Pane. Then press Ctrl-C
+![](3A-034.changesreportclipboard.png)
+2. Paste it into a spreadsheet
+![](3A-035.changesreportpaste.png)
 
 
 
