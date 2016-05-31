@@ -58,5 +58,69 @@
 ![](3A-022.createbrancheddataset2.png)
 
 
+##Model the scenario
+
+###Assign departments to planning groups
+
+Go to Pivot view and re-group departments into planning groups using drag-and-drop:
+
+1. Within the branched dataset create a new property ‘Planning Group’
+2. Configure Pivot table – Department by Planning Group
+3. Drag all nodes from Admin and drop onto the property name ‘Planning Group’ to set new value
+4. In the ‘Set property value’ dialogue, type in the planning group name ‘Back Office’ 
+ ![](3A-023.assigndepts.png)
+5. Using the same method, assign the remaining departments into 6 planning groups - Back Office, Distribution, P&P, R&D, Sales and Executive
+
+![](3A-024.assigndepts2.png)
+
+###Determine actions
+
+Now planning groups have been set up for review and determine appropriate actions.
+
+For each planning group, identify different actions for members of that group e.g. unchanged, new roles, redundancy, relocation, reassigned, outsource.  
+
+These actions can be assigned by dragging roles to an existing action category or by creating new categories by dragging them onto the action title. Apart from Pivot, the functionalities such as Paging, Colouring, Filter Control can be useful for doing this.
+
+Some questions you might want to consider:
+
+* How would we expand sales department?
+* What improvements could be made to the back office?
+* Identify some positions of projects & programs to be outsourced or made redundant 
+* Assume that the R&D planning group is unchanged
+* How might we simplify the distribution planning group? Assign actions to make some redundancies and some relocated roles
+* In the executive planning group, create a new CTO role and reassign some of the COO staff to the CTO
+
+
+1. Create a new property ‘Action’ and set ‘Initial Value as ‘Unchanged’
+2. Configure Pivot table – Planning Group by Action
+3. As we want to review and assign actions for one planning group at a time, filter it to ‘P&P’ using Filter Control
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
