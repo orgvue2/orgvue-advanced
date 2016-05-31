@@ -85,5 +85,30 @@ You can view which activities each role is involved in and the type of involveme
 2. On the Card Panel, choose Summary card and the properties to display
 3. Check the ‘Display links’ to display linked activities
 
+![](4A-018.roleviewaccountablities.png)
+
+##Quantify the numbers involved in each activity 
+
+Within the Processes dataset set up 2 new numerical properties to quantify linked roles and department per activity.
+
+1. Add a new property called ‘Number Of Roles Linked’ using the syntax: `node.links.to.role.count` – it counts the number of roles involved in each activity
+2. Add a new property called ‘Number Of Department Linked’ using the syntax: `node.links.to.department.distinct.count` – it counts the number of departments involved in each activity
+
+##Identify the issues in accountability using charts
+
+Charting number of linked roles per activity helps quickly identify activities not covered or overwhelmed by decision makers.
+
+![](4A-020.identifyissues.png)
+
+Visualising the number of linked departments helps identify activities that are likely to be unduly slow.
+
+![](4A-021.identifyissues2.png)
+
+**Interactive Chart:** click on any bar and drag-and-drop it to the Parking lot to see the nodes (level 3 activities) 
+
+##Quantify the number of activities each role involved
+
+Within the Roles dataset, set up new numerical property to quantify number of activities associated with each role. Add a new property called ‘Number Of Activities Linked’ using the syntax: ```node.links.count``` – it counts the number of linked activities for each of the roles.
+
 
 
