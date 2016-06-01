@@ -102,25 +102,22 @@ Identify the gap between actual and target salaries per department:
 
 Go to Chart view and create a bar chart showing total salary gap.  
 
-![](A2-018.salarygapbarchart.png)
+![](A2-018.salarygaptotal.png)
 
 ###Salary gap aggregated by area and department
 
 Chart the salary gap by area and department respectively.
 
-![](A2-019.salarygaparea.png)
-
-![](A2-020.salarygapdepartment.png)
+![](A2-019.salarygapareaanddept.png)
 
 ###Average salary gap per role
 
 Chart the average salary gap per role.
 
-
-![](A2-021.averagesalarygapbyrole.png)
+![](A2-020.salarygaprole.png)
 
 ###Salary gap by individual role
 
 Now let’s display the gaps within org tree. Navigate to Tree view, create an org chart colored by Salary Gap.
 
-![](A2-021.salarygapindividualrole.png)
+![](A2-021.salarygapindividual.png)
