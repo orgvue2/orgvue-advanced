@@ -70,7 +70,10 @@ To create a property by duplicating another property:
 
 To create a Survey, click on the ‘Create Survey’ icon  ![](6A-022.tick.png)    on the toolbar across the top. You will be taken to a Survey Dataset and asked to configure Survey Parameters.
 
+![](6A-023.createsurvey.png)
 
 
+**Note:** Webform and Survey icons are only available in Worksheet view.
 
+![](6A-024.webformsurveyicons.png)
 
