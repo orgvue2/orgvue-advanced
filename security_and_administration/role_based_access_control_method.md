@@ -98,7 +98,7 @@ There also a range of tags to further customise the behaviour of datasets and pr
 | `private: <user_role(s)>`| `private:hr`| Dataset | Advanced | Only listed roles (and admins) can see the dataset, though others may be able to edit it (useful for webforms and branches)|
 | `archived` |  | Dataset | Expert | Hides a dataset from all users, inc. admin, without deleting it – searching tag:archived will display it again |
 | `tasks` | | Dataset | Expert | Allows people with the role 'tasks', who cannot log in to workspace, to submit data via OrgVue taskforms|
-| `workflows: <task_name>`| `workflows:my objectives` | Dataset | Expert | Creates a blank task for the tenant with name <task_name> and stores a task script |
+| `workflows: <task_name>`| `workflows:my objectives` | Dataset | Expert | Creates a blank task for the tenant with name `<task_name>` and stores a task script |
 | `scripts: <scripts>`|`scripts:2.19,2.20`| Dataset | Expert | Determines the OrgVue release versions in which a configuration dataset can be used |
 | `csv` |  | Property | Advanced | Suppresses OrgVue number formatting to allow cells to contain ###,###,##|
 | `parent: <secondary_id>` | `parent:matrixid`| Property | Advanced | Sets up a secondary hierarchy where the tagged property is the parent ID and `<secondary_id>` is the ID|
@@ -110,9 +110,8 @@ To view all the entries in a webform, you have to be:
 
 * An admin, **OR**
 * The owner of the dataset
-* 
 
-**N.B. Entries are limited by the filter applied to the dataset at the time its link is created**
+**Note**: Entries are limited by the filter applied to the dataset at the time its link is created**
 
 ![](A1-009.RBACwebforms.png)
 
@@ -121,11 +120,11 @@ To view all the entries in a webform, you have to be:
 
 
 
-If you are not, you can only see entries if the dataset is tagged view/update/edit:<your_user_role> AND **EITHER**
-* You are a designated owner* of that node (using the email format described below); **OR**	
+If you are not, you can only see entries if the dataset is tagged `view/update/edit:<your_user_role>` **AND EITHER**
+* You are a designated owner\* of that node (using the email format described below); **OR**	
 * An objective has no designated owner (or owner is not in email format)
 
-To designate owners, create a property called “owner” and add the email address that the person uses to log in to OrgVue. Allow multiple people to view the same nodes by entering the email addresses in a comma-separated list (no spaces).
+\* To designate owners, create a property called “owner” and add the email address that the person uses to log in to OrgVue. Allow multiple people to view the same nodes by entering the email addresses in a comma-separated list (no spaces).
 
 To view properties within a webform, 2 things have to be true:
 
@@ -138,7 +137,7 @@ To edit data in a field, you must be
 
 * The owner of the dataset, **OR**
 
-* The dataset must be tagged update / edit:<user_role> **AND**
+* The dataset must be tagged `update / edit:\<user_role\>` **AND**
 
 * The property you are trying to edit is not set as ‘hidden’ or ‘read only’ in the dataset
 
