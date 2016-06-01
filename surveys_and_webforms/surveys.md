@@ -47,18 +47,7 @@ When the ‘Tracked’ option is selected, you can manage the respondent list an
 * Respondent can’t go back and edit previous responses
 
 ![](6A-015.tracked.png)
-
-##Tasks
-
-###Transition management overview
-
-A Task is a custom web form built to support a particular workflow.
-
-**Transition management modules – an overview **
-
-![](6A-016.transitionmanagement.png)
-
-**Note:** Tasks forms and Transition management is fully covered in the Transition Management chapter.  
+ 
 
 
 
