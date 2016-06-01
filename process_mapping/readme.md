@@ -68,9 +68,34 @@ After setting up Roles and Processes datasets, create link values using the ‘1
 ###View Org Chart including activities
 
 See what each role does and how much time that they spend doing it:
-Switch to Tree view within the Roles dataset and configure Summary card
-Check ‘Display links’ to view linked activities with time spend
 
+1. Switch to Tree view within the Roles dataset and configure Summary card
+2. Check ‘Display links’ to view linked activities with time spend
+
+![](5A-007.vieworgchart.png)
+
+###View actual FTEs on Process dashboard
+
+To view process breakdowns with linked roles and % time spent:
+
+1. Open the Processes dataset linked from the Roles dataset
+2. Navigate to Dashboard view and choose Processes dashboard
+3. Set Chevron depth as 2
+4. Check ‘show links’ to display linked roles with % time spent
+
+ ![](5A-008.viewfte.png)
+###Calculate total time spent on each activity
+
+  In the Process dataset create a new property ‘Total FTE’ to calculate actual FTEs linked to each activity using the syntax: ```node.links.value.sum``` 
+  – this will calculate total number of FTEs working on each activity based on the link values (% time spent).
+  
+  ![](5A-009.calculatetotaltime.png)
+  
+###Calculate activity cost 
+
+Converting time to cost can deliver insights on aggregated activity costs. Within the Processes dataset create a new property **‘Activity Cost’** and populate it with calculated value based on linked FTE values and the associated payroll cost using the syntax:
+```node.links.math("value*to.payrollcost").sum```
+– this will calculate cost of activity based on the linked % time and the associated payroll cost from Roles datasets.
 
 
 
