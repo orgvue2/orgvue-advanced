@@ -24,7 +24,7 @@
    * [Exercise: Activity Analysis](process_mapping/exercise_activity_analysis.md)
    * [Exercise: Process re-design](process_mapping/exercise_process_re-design.md)
    * [Add icons to Process Dashboard](process_mapping/add_icons_to_process_dashboard.md)
-   * Further reading
+   * [Further reading](process_mapping/further_reading.md)
 * [Surveys and Webforms](surveys_and_webforms/readme.md)
    * [OrgVue interfaces overview](surveys_and_webforms/orgvue_interfaces_overview.md)
    * [Webforms](surveys_and_webforms/webforms.md)
