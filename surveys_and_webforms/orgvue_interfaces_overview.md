@@ -1,5 +1,7 @@
 # OrgVue interfaces overview
 
+OrgVue has 3 additional interfaces to gather, update and manage your data. 
+
 | | Webforms | Surveys | Tasks |
 | -- | -- | -- | -- |
 |  | ![](6A-001.Webforms.png)| ![](6A-002.Surveys.png) | ![](6A-003.Tasks.png) |
