@@ -83,24 +83,20 @@ Identify the gap between actual and target salaries per department:
 
 2. Set ‘Dataset’ lookup mode and choose ‘Grade’ dataset; this allows the properties in the Grade lookup dataset to be imported to the main dataset
 
-3.
-Notice the two properties in the Grade (lookup) dataset are brought into the main dataset
+3. Notice the two properties in the Grade (lookup) dataset are brought into the main dataset
 
 ![](A2-015.targetsalary.png)
 
 ##Calculate the difference between actual and target salary
 
-1.
-Add a property named ‘Salary Gap’ using the below Expression to automatically fill in the difference between actual and target salary 
+1. Add a property named ‘Salary Gap’ using the below Expression to automatically fill in the difference between actual and target salary: `node.math("salarygbp-grade.targetsalarygbp"`
 
-`node.math("salarygbp-grade.targetsalarygbp"`
+![](A2-013.localcurrencycode.png)
 
-![](A2-016.salarygapcode.png)
 
-2.
-Notice that new ‘Salary Gap’ property is added and populated with values
+2. Notice that new ‘Salary Gap’ property is added and populated with values
 
-![](A2-017.salarygaptable.png)
+![](A2-017.salarygapproperty.png)
 
 ##Visualise the gaps 
 
