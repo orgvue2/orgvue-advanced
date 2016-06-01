@@ -41,7 +41,7 @@
 
 ##Get exercise data into OrgVue 
 
-1. Open the Excel workbook for OrgVue Advaned Training
+1. Open the Excel workbook for OrgVue Advanced Training
 2. Find a data sheet for this chapter:
      1505 (clean)
 3. In OrgVue, create a dataset named ‘Delta Roles – [your name]’ in the Roles tab using the ‘1505 (clean)’ data sheet; this will be your baseline dataset
@@ -50,7 +50,7 @@
 
 ###Create a branched dataset
 
-1. Open a baseline dataset and click on the ‘Save-As’ to create a branched dataset from it; this will prompt ‘Save as…’ dialoge
+1. Open a baseline dataset and click on the ‘Save-As’ to create a branched dataset from it; this will prompt ‘Save as…’ dialogue
 2. Give a name to the branch as ‘Delta Branch – [your name]’ and make sure to check ‘Create branch’ option
 ![](3A-021.createbrancheddataset.png)
 3. The branched dataset is stored in the ‘Branches’ section along with other branches
@@ -83,12 +83,12 @@ These actions can be assigned by dragging roles to an existing action category o
 
 Some questions you might want to consider:
 
-* How would we expand sales department?
-* What improvements could be made to the back office?
-* Identify some positions of projects & programs to be outsourced or made redundant 
-* Assume that the R&D planning group is unchanged
-* How might we simplify the distribution planning group? Assign actions to make some redundancies and some relocated roles
-* In the executive planning group, create a new CTO role and reassign some of the COO staff to the CTO
+1. How would we expand sales department?
+2. What improvements could be made to the back office?
+3. Identify some positions of projects & programs to be outsourced or made redundant 
+4. Assume that the R&D planning group is unchanged
+5. How might we simplify the distribution planning group? Assign actions to make some redundancies and some relocated roles
+6. In the executive planning group, create a new CTO role and reassign some of the COO staff to the CTO
 
 
 1. Create a new property ‘Action’ and set ‘Initial Value as ‘Unchanged’

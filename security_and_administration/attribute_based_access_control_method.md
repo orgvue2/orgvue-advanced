@@ -6,25 +6,23 @@ ABAC is used to restrict users’ access based on more complex rules; this allow
 
 There are 2 broad categories of ABAC:
 
-1.
-**Label-based** (recommended)
+1. **Label-based** (recommended)
 
-Users can only see nodes that have been ‘labelled’ as applicable for them.
+  Users can only see nodes that have been ‘labelled’ as applicable for them.
 
-e.g. 1: employees can only see people in their region
+  i. e.g. employees can only see people in their region
+  
+  ii. e.g. only HR can see employees with a salary of >£50k
 
-e.g. 2: only HR can see employees with a salary of >£50k
+  ![](A1-011.ABAClabel.png)
 
-![](A1-011.ABAClabel.png)
+2. **Hierarchy-based**
 
-2.
-**Hierarchy-based**
+  Users can see nodes based on their reporting relationship.
 
-Users can see nodes based on their reporting relationship.
+  i. e.g. employees can only see themselves and their reports
 
-e.g. 1: employees can only see themselves and their reports
-
-e.g. 2: users can only see nodes at depth > 3
+  ii. e.g users can only see nodes at depth > 3
 
 ![](A1-012.ABAChierarchy.png)
 
