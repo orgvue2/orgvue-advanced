@@ -6,15 +6,14 @@ Users need to be given permissions to access datasets which they do not own. Usi
 
 ![](A1-002.RBACoverview.png)
 
-## At Dataset level
+## At dataset level
 
 Using RBAC method, the dataset owner or Admin can set the level of Users' access to a dataset. The following steps will control user access at dataset level:
 
 1. Define custom permission groups and assignment rules, e.g HRBP, Finance, IT, Manager
 2. Assign an individual user to a permission group(s)
-    * Open the Users data tab in the Users tab
-    * Select the user whose access level you wish to alter and modify a User's role to put it into extra permission groups
-
+  3.  Open the Users data tab in the Users tab
+  4.  Select the user whose access level you wish to alter and modify a User's role to put it into extra permission groups
 ![](A1-003.datasetlevel1.png)
 
 3. Set a permission group's access level to a dataset using Tags
