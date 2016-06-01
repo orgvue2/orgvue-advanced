@@ -6,7 +6,7 @@ Users need to be given permissions to access datasets which they do not own. Usi
 
 ![](A1-002.RBACoverview.png)
 
-## At dataset level
+## At Dataset Level
 
 Using RBAC method, the dataset owner or Admin can set the level of Users' access to a dataset. The following steps will control user access at dataset level:
 
@@ -17,10 +17,9 @@ Using RBAC method, the dataset owner or Admin can set the level of Users' access
 ![](A1-003.datasetlevel1.png)
 
 3. Set a permission group's access level to a dataset using Tags
-    * Select a dataset from the Home Screen and click on ‘Tags..’ icon at the top-right
-Only listed roles (and admins) can see the dataset, though others may be able to edit it (useful for webforms and branches)
-    * Using ‘Apply tag’ dialogue, set appropriate access levels for a permission group
-    * Tags are displayed along with dataset name and date modified
+  4. Select a dataset from the Home Screen and click on ‘Tags..’ icon at the top-right
+  6. Using ‘Apply tag’ dialogue, set appropriate access levels for a permission group
+  7. Tags are displayed along with dataset name and date modified
 
 ![](A1-004.datasetlevel2.png)
 
@@ -33,7 +32,7 @@ Only listed roles (and admins) can see the dataset, though others may be able to
 
 ![](A1-005.datasetlevel3.png)
 
-**Note: You can Tag a dataset to be Viewed or Edited by multiple permission groups**
+**Note:** You can Tag a dataset to be Viewed or Edited by multiple permission groups
 
 ##At Property Level
 
@@ -43,13 +42,13 @@ RBAC can be implemented at property level within a dataset. To limit a user’s 
 
 | Access | Description |
 | -- | -- |
-| Default | Dataset/ property can be accessed and edited by anyone tagged as “edit:….”|
+| Default | Dataset/ property can be accessed and edited by anyone tagged as “edit:…”|
 | Update only| Cell values can be updated but the structure (e.g. node hierarchy, property settings) cannot|
 | View only| Can be seen but not altered in any way|
 | Hidden | Cannot be seen by anyone other than admins and the dataset owner|
 
-**Note: setting a property to ‘Hidden’ will mean that standard users cannot colour by it or use it in any expressions.
-**
+**Note**: setting a property to ‘Hidden’ will mean that standard users cannot colour by it or use it in any expressions.
+
 
 Tagging the property in a similar way to datasets allows access to specific users. In this example, the default security is set to Hidden – normal users will not see this property (including when it is used in expressions). However, users tagged as ‘hrsecure’ will be able to view and edit this property.
 
@@ -62,14 +61,11 @@ Tagging the property in a similar way to datasets allows access to specific user
 | Update only| update: hranalyst|
 | Edit | edit:hrsecure|
 
-**Note: tagging properties uses the same formats as datasets.
-**
+**Note**: tagging properties uses the same formats as datasets.
 
 ##Key rules to permissions
 
 There are key rules to help you understand how RBAC works between datasets and properties.
-
-**Key rules to permissions**
 
 OrgVue is cautious by default.
 
@@ -77,7 +73,7 @@ OrgVue is cautious by default.
 2. For non-hidden properties, setting a dataset to **‘View’** overrides any property-level security
 3. For non-private datasets, setting a property to **‘View only'** or **‘Update only'** will restrict access
 
-**Interaction between dataset and property level
+**Interaction between dataset and property level**
 
 ![](A1-008.RBACpermissionrules.png)
 ##Tags
@@ -86,7 +82,7 @@ Tags are used for access control and also interacting with datasets. The followi
 
 | Tag | Description|Scope|Difficulty|Description |
 | -- | -- | -- | -- | -- |
-| view:<user_role(s)>| view:ops|Dataset | Standard | Listed roles can view the dataset only|
+| view: <user_role(s)>| view:ops|Dataset | Standard | Listed roles can view the dataset only|
 | update:<user_role(s)>| update:hr,finance| Dataset |Standard | Listed roles can update cell values but not properties|
 | edit:<user_role(s)>| edit:seniorhr| Dataset| Standard | Listed roles can edit cells and Properties|
 | fav | | Dataset | Standard | Put the dataset in the Favourites tab for all users|
