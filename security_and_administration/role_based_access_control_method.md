@@ -26,9 +26,9 @@ Using RBAC method, the dataset owner or Admin can set the level of Users' access
 | Access |Tag example |
 | -- | -- |
 | Invisible | (no tag) |
-| Read only | view:user |
-| Update only | update:it,ops |
-| Edit | edit:hr |
+| Read only | `view:user` |
+| Update only | `update:it,op`s |
+| Edit | `edit:hr` |
 
 ![](A1-005.datasetlevel3.png)
 
@@ -57,9 +57,9 @@ Tagging the property in a similar way to datasets allows access to specific user
 | Access | Tag example |
 | -- | -- |
 | Invisible | (no tag) |
-| Read only | view: hrgeneral|
-| Update only| update: hranalyst|
-| Edit | edit:hrsecure|
+| Read only | `view: hrgeneral`|
+| Update only| `update: hranalyst`|
+| Edit | `edit: hrsecure`|
 
 **Note**: tagging properties uses the same formats as datasets.
 
@@ -141,8 +141,7 @@ To edit data in a field, you must be
 
 * The property you are trying to edit is not set as ‘hidden’ or ‘read only’ in the dataset
 
-![](A1-0010.RBACwebforms2.png)
-
+![](A1-009b.editdata.png)
 
 
 
