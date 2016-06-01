@@ -54,13 +54,18 @@ The Pivot view offers convenient interface for dimensional analysis.
   * **Note**: This analysis should be done at the lowest level of process which is Level 3 for this example. Use Filter Control to only display level 3 activities. 
 
 4. To make the process manageable, page the Pivot table by Level 2 process
-    
-![](5A-020.levelprocess2.png)
+  
+    ![](5A-020.levelprocess2.png
 5. Using the arrows page it to ‘Define Marketing Objectives’ then only 5 activities will be shown 
+
 6. To assign new value for ‘Sales target’, drag and drop the node on to the Column title ‘SOT’
+
 7. Then you are prompted to set the value from the dropdown list, i.e. Strategic, Operational, Transactional. 
+
 8. ‘Strategic’ has been chosen for ‘Sales targets’. 
+
 9. Using the same method, all 5 activities have been placed against How Core and SOT
+
 10. Now go to next page and assign values
 
 
