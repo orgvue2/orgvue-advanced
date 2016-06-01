@@ -9,7 +9,7 @@ Create a clone of the original org **within** one dataset
 ![](3A-001.cloning.png)
 
 * Useful for position level workforce planning 
-* You can create more than 2 clones to compare multiple scenarios side by side
+* You can create more than 2 clones to compare multiple scenarios **side by side**
 * Disadvantage: can clutter the dataset with multiple copies of nodes 
 
 ###Method 2: Branching
