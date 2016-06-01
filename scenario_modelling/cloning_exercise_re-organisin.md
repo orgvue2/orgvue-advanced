@@ -49,7 +49,7 @@ The resulting To-Be organisation should then be compared with the As-Is, showing
 
 ![](3A-005.createaclone.png)
 
-1. In Tree view, drag the root node onto             to clone the whole organisation
+1. In Tree view, drag the root node onto     ![](A3-x.topicon.png)        to **clone** the whole organisation
 
 2. Create a property named Scenario
 
@@ -61,26 +61,26 @@ The resulting To-Be organisation should then be compared with the As-Is, showing
 
 1. Filter out new scenario using Filter Control
 
-2. Color by performance ranking
+2. **Color by** performance ranking
 
 3. Assign top performance to team leaders
 
 4. Scale the card based on roll-up cost 
 
-5.Drag-and-drop the nodes to optimise number and size of teams
+5. **Drag-and-drop** the nodes to optimise number and size of teams
 
 
 ###Visualise the Impact
 
 ![](3A-007.visualiseimpact.png)
 
-1. Compare organisational structure of the two in Tree view
+1. Compare organisational structure of the two in **Tree view**
 
-2. Chart the differences, such as outgoing count split by depth, overall cost, average performance ranking etc.
+2. **Chart** the differences, such as outgoing count split by depth, overall cost, average performance ranking etc.
 
 ###Get exercise data into OrgVue 
 
-1. Open the Excel workbook for OrgVue Advaned Training
+1. Open the Excel workbook for OrgVue Advanced Training
 
 2. Find a data sheet for this chapter:
   * 9.1 Sales Department 
@@ -93,7 +93,7 @@ The resulting To-Be organisation should then be compared with the As-Is, showing
 
 To clone the whole tree:
 
-1. Drag and drop the root node onto               at the Property Pane
+1. Drag and drop the root node onto          ![](A3-x.topicon.png)     at the Property Pane
 
 2. When ‘Confirm’ dialogue pops up, check ‘Clone’ to copy the whole organisation
 
