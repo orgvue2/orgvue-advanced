@@ -56,42 +56,32 @@ Identify the gap between actual and target salaries per department:
 
 ###Look up local currency and exchange rate
 
-1.
-Go to the main dataset ‘Payment Review’, open up the Edit Property dialogue for the Country property
+1. Go to the main dataset ‘Payment Review’, open up the Edit Property dialogue for the Country property
 
-2.
-Set ‘Dataset’ lookup mode and choose ‘Country’ dataset; this allows the properties in the Country lookup dataset to be imported to the main dataset
+2. Set ‘Dataset’ lookup mode and choose ‘Country’ dataset; this allows the properties in the Country lookup dataset to be imported to the main dataset
 
-3.
-Notice the two properties in the Country (lookup) dataset are brought into the main dataset
-
+3. Notice the two properties in the Country (lookup) dataset are brought into the main dataset
 ![](A2-011.lookupcurrency.png)
-4.
-To see Local currency and Exchange rate from the lookup dataset in the Worksheet, simply check them from the Property list
+
+4. To see Local currency and Exchange rate from the lookup dataset in the Worksheet, simply check them from the Property list
 
 ![](A2-012.lookupcurrency2.png)
+
 ###Convert salary in local currency into GBP
 
-1.
-Create a new property named ‘Salary GBP’ using the below Expression to calculate converted:
-
-`salarynode.math("currentsalary*country.exchangerate")`
-
+1. Create a new property named ‘Salary GBP’ using the below Expression to calculate converted: `salarynode.math("currentsalary*country.exchangerate")`
 ![](A2-013.localcurrencycode.png)
 
-2.
-Now new ‘Salary GBP’ property is added and populated with values
+2. Now new ‘Salary GBP’ property is added and populated with values
 
-![](A2-014.salaryGDP.png)
+![](A2-014.salarygdp.png)
 
 
 ###Look up target salary 
 
-1.
-Open up the Edit Property dialogue for the ‘Grade’ property
+1. Open up the Edit Property dialogue for the ‘Grade’ property
 
-2.
-Set ‘Dataset’ lookup mode and choose ‘Grade’ dataset; this allows the properties in the Grade lookup dataset to be imported to the main dataset
+2. Set ‘Dataset’ lookup mode and choose ‘Grade’ dataset; this allows the properties in the Grade lookup dataset to be imported to the main dataset
 
 3.
 Notice the two properties in the Grade (lookup) dataset are brought into the main dataset
@@ -101,7 +91,9 @@ Notice the two properties in the Grade (lookup) dataset are brought into the mai
 ##Calculate the difference between actual and target salary
 
 1.
-Add a property named ‘Salary Gap’ using the below Expression to automatically fill in the difference between actual and target salarynode.math("salarygbp-grade.targetsalarygbp")
+Add a property named ‘Salary Gap’ using the below Expression to automatically fill in the difference between actual and target salary 
+
+`node.math("salarygbp-grade.targetsalarygbp"`
 
 ![](A2-016.salarygapcode.png)
 
