@@ -23,44 +23,34 @@ Identify the gap between actual and target salaries per department:
 
 ##How-to summary
 
-1.
-**Get actual salary in GBP**
+1. **Get actual salary in GBP**
+  2.  **Look up** exchange rate for each country from Country dataset  
+  3.  Create a property for salary in GBP using ** *Expressions* ** 
   
-  * **Look up** exchange rate for each country from Country dataset  
-  * Create a property for salary in GBP using ** *Expressions* ** 
+2. **Get target salary by grade**
+  3. **Look up** target salary for each employee based on grade
   
-2.
-**Get target salary by grade**
+3. **Capture the difference**
+  4. Create a property fill in the gap between actual and target salary using **Expressions**
 
- * **Look up** target salary for each employee based on grade
+4. **Visualise the gaps**
 
-3.
-**Capture the difference**
+5. See the gap between the two in the Tree using **Color by**
 
-* Create a property fill in the gap between actual and target salary using ** *Expressions* **
-
-4.**Visualise the gaps**
-
-* See the gap between the two in the Tree using **Color by**
-* See the gap by department / depth using **Chart**
+6. See the gap by department / depth using **Chart**
   
 ##Get exercise data into OrgVue 
 
-1.
-Open the Excel workbook for OrgVue Advaned Training
-
-2.
-Find 3 sheets for this chapter:
+1. Open the Excel workbook for OrgVue Advaned Training
+2. Find 3 sheets for this chapter:
 
   * 8.1 Payment review,
   * 8.2 Country (lookup)
   * 8.3 Grade (lookup)
 
-3.
-In OrgVue, create a dataset named ‘Payment Review – [your name]’ in the People tab using ‘8.1 Payment review’ data sheet; this dataset will be the main dataset
+3. OrgVue, create a dataset named ‘Payment Review – [your name]’ in the People tab using ‘8.1 Payment review’ data sheet; this dataset will be the main dataset
 
-4.
-Navigate to the Lookups tab, create 2 lookup datasets using ‘8.2 Country (lookup)’ and ‘8.3 Grade (lookup)’
+4. Navigate to the Lookups tab, create 2 lookup datasets using ‘8.2 Country (lookup)’ and ‘8.3 Grade (lookup)’
 
 ##Get actual salary in GBP
 
