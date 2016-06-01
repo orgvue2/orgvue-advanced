@@ -95,16 +95,59 @@ Dimensional analysis helps you to identify the areas which require actions to im
  ![](5A-028.nothing.png)
 4. Set Lookup mode as ‘Dataset’ and choose the dataset you havejust created for actions
 
+###Assign actions to each activity
 
+Now assign appropriate actions to the activities identified to need actions.
 
+1. Drag a group of nodes to assign same action and drop into Parking Lot
+2. Open up Filter Control and make ‘Action’ filter active. Drag the nodes from the Parking Lot and drop onto the Action filter to set a value from the lookup. 
 
+![](5A-029.filtercontrol.png)
 
+##Measure the impact of actions
 
-  
+###Calculate savings per activity 
 
+Having assigned actions, create 3 new properties to measure impact of actions:
 
+1. Add a new property called ‘New Activity Cost’ using the syntax:
+```node.activitycost*node.action.savingeffect``` – it calculates new activity cost with savings effect applied```
+2. Add a new property called ‘Savings’ using the syntax: ```node.activitycost*(1-node.action.savingeffect)``` – it calculate expected savings, i.e. the gap between the current and new activity cost
+3. Add a new property called ‘Rollup Savings’ using the syntax: ```node.rollup('savings','sum')```- it calculates rollup savings
 
+![](5A-030.rollupsavings.png)
 
+##Visualise the impact of actions
+
+###FTEs affected by each action
+
+![](5A-031.effectsonFTEs.png)
+
+###Amount of savings achieved by each action
+
+![](5A-032.savingsachieved.png)
+
+##Measure the impact of actions
+
+###Savings aggregated per role
+
+Now open up the Roles dataset and aggregate impacts by role. Create a new property called ‘Savings’ using the syntax:
+
+```node.links.math('value*from.payrollcost*(1-to.action.savingeffect)').sum``` – it calculates total savings linked to each role
+
+![](5A-033.savingsperrole.png)
+
+##Visualise the impact of actions
+
+###Savings aggregrated per role
+
+####Column Chart
+
+![](5A-034.savingscolumnchart.png)
+
+####Scaled Org Chart
+
+![](5A-035.savingsorgchart.png)
 
 
 
