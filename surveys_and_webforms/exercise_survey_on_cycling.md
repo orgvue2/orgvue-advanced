@@ -77,3 +77,50 @@ To create a Survey, click on the ‘Create Survey’ icon  ![](6A-022.tick.png) 
 
 ![](6A-024.webformsurveyicons.png)
 
+###Configure parameters
+
+Configure the parameters of the Survey in the Survey Properties dialogue box. After clicking ‘Ok’ you’ll see that you’ve now set up a ‘Survey’ dataset (which currently has no nodes).
+
+![](6A-025.configureparameters.png)
+
+###Save and create survey link
+
+After saving the Survey dataset, click on the ‘Create Link’ icon    ![](6A-026.createlinkicon.png)    to copy the Survey Link.
+
+![](6A-027.copylink.png)
+
+###Save and email survey link
+
+Alternatively, you can email this link to the Survey respondents.
+1. Add respondent emails to the Survey dataset then Save
+2. Click the ‘Email’ icon to email the survey to the entire respondent list
+
+![](6A-028.emailsurveylink.png)
+
+###Access survey and complete
+
+Open a web browser and paste the link to access and complete the Survey.
+
+![](6A-029.completesurvey.png)
+
+##Go back to the target dataset and review the results
+
+The Survey Owner can then go back to the People tab and open the target Dataset.
+
+![](6A-030.reviewresults.png)
+
+The Survey results that have been submitted are saved and displayed in this Dataset.
+
+![](6A-031.resultsdisplay.png)
+
+##See the data through the Webform
+
+Additionally, you have the option to see the data displayed as part of the Webform interface.
+
+![](6A-032.datathroughwebform.png)
+
+You can view and edit your property values through the Webform.
+
+![](6A-033.editpropertiesthroughwebform.png)
+
+
