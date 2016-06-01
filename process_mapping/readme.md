@@ -97,6 +97,23 @@ Converting time to cost can deliver insights on aggregated activity costs. Withi
 ```node.links.math("value*to.payrollcost").sum```
 – this will calculate cost of activity based on the linked % time and the associated payroll cost from Roles datasets.
 
+![](5A-010.calculateactivitytime.png)
+
+###View Activity Cost
+
+####Activity Tree
+
+To view total activity cost and breakdowns in an activity hierarchy:
+
+1. Navigate to Tree View
+2. On the Card Panel choose Scaled card and sized by Activity Cost
+3. Check ‘rollup’ to see the cost as rollup
+
+![](5A-011.activitytree.png)
+
+####Bar Chart
+
+![](5A-012.barchart.png)
 
 
 
