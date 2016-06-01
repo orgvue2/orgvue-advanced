@@ -23,14 +23,11 @@ Add a New Account through the ‘Add Node’ option on the Property Pane.
 
 Edit the Properties of the Account Node in the same way you would for any other nodes. There are only three editable properties for an account node:
 
-1.
-Login: in principle, email address can be edited, but If there is a mistake in an email address, you cannot amend it using this property – you will need to delete the node or change the ‘Enabled’ value to “false” and re-add the correct login
+1. Login: in principle, email address can be edited, but If there is a mistake in an email address, you cannot amend it using this property – you will need to delete the node or change the ‘Enabled’ value to “false” and re-add the correct login
 
-2.
-Enabled: you can select between ‘true’ and ‘false’. To de-activate an account set the Enabled Property to ‘false’ as opposed to deleting the Node itself
+2. Enabled: you can select between ‘true’ and ‘false’. To de-activate an account set the Enabled Property to ‘false’ as opposed to deleting the Node itself
 
-3.
-Role: most accounts should be set up as a ‘User’ Role, which limits the datasets they can view and edit in the tenant. You can then assign single or multiple permission groups to an individual user.
+3. Role: most accounts should be set up as a ‘User’ Role, which limits the datasets they can view and edit in the tenant. You can then assign single or multiple permission groups to an individual user.
 
 ![](A1-016.editproperties.png)
 
@@ -42,7 +39,7 @@ Once you’ve configured the new accounts, save the dataset to send out OrgVue l
 
 ##Example email sent to new users
 
-Each new User will receive the following email from ‘donotreply@orgvue.com’, giving them login details.
+Each new User will receive the following email from <donotreply@orgvue.com>, giving them login details.
 
 ![](A1-018.exampleemail.png)
 
@@ -57,7 +54,7 @@ Each new User will receive the following email from ‘donotreply@orgvue.com’,
 * Where lookup datasets are used for providing custom colours, Users need to be able to view lookup datasets in order for proper functioning of colours 
 
 *  Each dataset should have only one tag of each access type, multiple tags will not operate correctly when applied to one dataset
-  *  e.g. view: hrbp,admin,exec, edit: hrcentral,finance (**V**)
-  *  e.g. view: hrbp, view:admin, view:exec (**X**)
+  *  e.g. `view: hrbp,admin,exec`, `edit: hrcentral,finance` (**V**)
+  *  e.g. `view: hrbp`, `view:admin`, `view:exec` (**X**)
 
 
