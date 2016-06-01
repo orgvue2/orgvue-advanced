@@ -54,26 +54,48 @@ The Pivot view offers convenient interface for dimensional analysis.
   * **Note**: This analysis should be done at the lowest level of process which is Level 3 for this example. Use Filter Control to only display level 3 activities. 
 
 4. To make the process manageable, page the Pivot table by Level 2 process
-  
-    ![](5A-020.levelprocess2.png
-5. Using the arrows page it to ‘Define Marketing Objectives’ then only 5 activities will be shown 
 
+  ![](5A-020.levelprocess2.png)
+5. Using the arrows page it to ‘Define Marketing Objectives’ then only 5 activities will be shown 
+  ![](5A-021.definemarketingprocesses.png)
 6. To assign new value for ‘Sales target’, drag and drop the node on to the Column title ‘SOT’
 
 7. Then you are prompted to set the value from the dropdown list, i.e. Strategic, Operational, Transactional. 
-
+![](5A-022.dropdown.png)
 8. ‘Strategic’ has been chosen for ‘Sales targets’. 
-
+![](5A-023.strategicsalestargets.png)
 9. Using the same method, all 5 activities have been placed against How Core and SOT
-
+![](5A-024.howcoresotplot.png)
 10. Now go to next page and assign values
+11. After completing it page by page, come back to ‘(All)’ and see all nodes on the same page. You will see all activities have been placed against dimensions
+12. Make tweaks if needed
+13. You can add other aspects to the analysis such as Total FTE, Activity Cost or process type using colouring
+![](5A-025.addtoanalysis.png)
+**Note:** Assigning values using Pivot view will populate values for SOT and How Core properties – go to Worksheet view and check.
+
+###Identify the areas need improvements
+
+Dimensional analysis helps you to identify the areas which require actions to improve efficiency. For example:
+
+* Non-Core activities  consider to stop the work
+* Semi-Core Operational activities with higher FTEs involved  need productivity improvement
+* Transactional activities with high FTEs involved  consider to outsource 
+
+![](5A-026.identifyimprovement.png)
+
+###Identify actions and saving effect
+
+1. Based on the design criteria (say cost saving), list possible actions to be taken and estimated savings effect, e.g. Outsourced activities will only cost 60% of the original cost
+
+  ![](5A-027.actionsavings.png)
+2. Save it as lookup table in OrgVue
+
+3. Within the Processes dataset add a new property ‘Action’. Set value mode as ‘Initial’ and type in ‘Nothing’ in the value box to populate all cells with ‘Nothing’ as an initial value
+ 
+ ![](5A-028.nothing.png)
+4. Set Lookup mode as ‘Dataset’ and choose the dataset you havejust created for actions
 
 
-
-
-![](5A-019.workvsdimensions.png)
-
-**Note**: This analysis should be done at the lowest level of process which is Level 3 for this example. Use Filter Control to only display level 3 activities. 
 
 
 
