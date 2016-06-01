@@ -15,5 +15,9 @@ Create a property in the dataset to store an icon for each node and populate it 
 ![](5A-037.assignicons.png)
 
 ###Display icons
- a
+
+On the dashboard control set the property which is storing the icon.
+
+![](5A-038.displayicons.png)
+
 
