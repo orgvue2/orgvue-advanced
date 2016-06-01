@@ -50,4 +50,27 @@ Create a new Dataset in the People tab, and add 6 new Properties for the followi
 5. On average, how often do you use your bicycle per week?
 6. On average, how many KM do you cycle each week?
 
+In the ‘Add Property’ dialogue box, set up parameters for the Property and the question displayed in the Survey.
+
+![](6A-020.propertysetting.png)
+
+###Duplicate the property
+
+For questions of a similar nature, simply configure the first question and then clone it to quickly apply it across to the other questions. 
+
+To create a property by duplicating another property:
+
+1. Click ‘Clipboard’ icon to duplicate this property; this will prompt the Add Property dialogue box 
+2. Amend the details of the cloned property where necessary
+
+![](6A-021.propertyduplicate.png)
+##Set up the survey
+
+###Create a survey database
+
+To create a Survey, click on the ‘Create Survey’ icon  ![](6A-022.tick.png)    on the toolbar across the top. You will be taken to a Survey Dataset and asked to configure Survey Parameters.
+
+
+
+
 
