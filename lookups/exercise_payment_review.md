@@ -91,9 +91,7 @@ Identify the gap between actual and target salaries per department:
 
 1. Add a property named ‘Salary Gap’ using the below Expression to automatically fill in the difference between actual and target salary: `node.math("salarygbp-grade.targetsalarygbp"`
 
-![](A2-013.localcurrencycode.png)
-
-
+![](A2-013.localcurrencycode.png) 
 2. Notice that new ‘Salary Gap’ property is added and populated with values
 
 ![](A2-017.salarygapproperty.png)
