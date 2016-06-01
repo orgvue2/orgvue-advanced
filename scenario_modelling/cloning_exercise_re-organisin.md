@@ -182,8 +182,6 @@ To create the tree-maps below:
 
 ###As-Is vs. To-Be in using charts
 
-Quantify the difference between the As-Is and the To-Be using charts, for example:
-
 ![](3A-017.charts.png)
 
 
