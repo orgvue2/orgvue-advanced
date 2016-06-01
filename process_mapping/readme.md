@@ -43,6 +43,33 @@
 2. See which activities use most resources using **Chart**
 3. See activity cost in activity tree **roll-up Scaled card**
 
+###Set up Roles and Processes datasets
+
+Prepare the roles and the process datasets in OrgVue using the given Excel data sheets:
+
+1. In the Roles tab, create a new dataset using the ‘12.1 Marketing Roles’ sheet. It contains role titles, cost, department and etc.
+2. In the Processes tab, create a new dataset using the ‘12.2 Marketing Processes’ sheet. It contains activity data in a hierarchy
+
+![](5A-004.setuprolesprocesses.png)
+
+###Link Roles dataset to Processes dataset through time spend
+
+After setting up Roles and Processes datasets, create link values using the ‘12.3 Links’ sheet. 
+
+1. Open up the Roles dataset ‘Marketing Roles’ you have saved in the Roles tab
+2. Navigate to the Link view and click on  ![](5A-005.linkdropdown.png)          
+3. Choose your Marketing Process dataset from the dropdown list
+4. Copy the id to id link values from the ‘12.3 Links’ sheet and paste them into the matrix – click on ‘Paste’ at top right then press Ctrl-V
+
+![](5A-006.linkrolestoprocesses.png)
+
+**Note:** In practice, IAA Survey can be used to crowdsource activity data (% time spent on each activity) and populate links automatically. 
+
+###View Org Chart including activities
+
+See what each role does and how much time that they spend doing it:
+Switch to Tree view within the Roles dataset and configure Summary card
+Check ‘Display links’ to view linked activities with time spend
 
 
 
