@@ -82,9 +82,9 @@ Tags are used for access control and also interacting with datasets. The followi
 
 | Tag | Description|Scope|Difficulty|Description |
 | -- | -- | -- | -- | -- |
-| view: <user_role(s)>| view:ops|Dataset | Standard | Listed roles can view the dataset only|
-| update:<user_role(s)>| update:hr,finance| Dataset |Standard | Listed roles can update cell values but not properties|
-| edit:<user_role(s)>| edit:seniorhr| Dataset| Standard | Listed roles can edit cells and Properties|
+| view: `<user_role(s)>`| view:ops|Dataset | Standard | Listed roles can view the dataset only|
+| update:`<user_role(s)>`| update:hr,finance| Dataset |Standard | Listed roles can update cell values but not properties|
+| edit: `<user_role(s)>`| edit:seniorhr| Dataset| Standard | Listed roles can edit cells and Properties|
 | fav | | Dataset | Standard | Put the dataset in the Favourites tab for all users|
 | lookup |  | Dataset | Standard | Flag a dataset outside the Lookups tab as a lookup |
 | template |  | Dataset | Standard | Allow a dataset to be copied from the home screen|
@@ -94,15 +94,14 @@ There also a range of tags to further customise the behaviour of datasets and pr
 
   | Tag | Example | Scope | Difficulty | Description |
 | -- | -- | -- | -- | -- |
-| owner:<user_role(s)>|owner:hr,finance,ops|Dataset | Advanced | Listed roles can only view and edit nodes that are labelled with their role in a ‘Owner’ property 
-| private:<user_role(s)>| private:hr| Dataset | Advanced | Only listed roles (and admins) can see the dataset, though others may be able to edit it (useful for webforms and branches)|
+| owner: `<user_role(s)>`|owner:hr,finance,ops|Dataset | Advanced | Listed roles can only view and edit nodes that are labelled with their role in a ‘Owner’ property 
+| private: `<user_role(s)>`| private:hr| Dataset | Advanced | Only listed roles (and admins) can see the dataset, though others may be able to edit it (useful for webforms and branches)|
 | archived |  | Dataset | Expert | Hides a dataset from all users, inc. admin, without deleting it – searching tag:archived will display it again |
-| tasks | | Dataset | Expert | Allows people with the role 'tasks', who cannot log in to workspace, to submit data via OrgVue taskforms
- |
-| workflows:<task_name>| workflows:my objectives | Dataset | Expert | Creates a blank task for the tenant with name <task_name> and stores a task script |
-| scripts:<scripts>|scripts:2.19,2.20| Dataset | Expert | Determines the OrgVue release versions in which a configuration dataset can be used |
+| tasks | | Dataset | Expert | Allows people with the role 'tasks', who cannot log in to workspace, to submit data via OrgVue taskforms|
+| workflows: `<task_name>`| workflows:my objectives | Dataset | Expert | Creates a blank task for the tenant with name <task_name> and stores a task script |
+| scripts: `<scripts>`|scripts:2.19,2.20| Dataset | Expert | Determines the OrgVue release versions in which a configuration dataset can be used |
 | csv |  | Property | Advanced | Suppresses OrgVue number formatting to allow cells to contain ###,###,##|
-| parent:<secondary_id> | parent:matrixid| Property | Advanced | Sets up a secondary hierarchy where the tagged property is the parent ID and <secondary_id> is the ID|
+| parent: `<secondary_id>` | parent:matrixid| Property | Advanced | Sets up a secondary hierarchy where the tagged property is the parent ID and `<secondary_id>` is the ID|
 
 
 ##Example: permissions for Webforms
