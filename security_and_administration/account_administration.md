@@ -39,7 +39,7 @@ Once you’ve configured the new accounts, save the dataset to send out OrgVue l
 
 ##Example email sent to new users
 
-Each new User will receive the following email from <donotreply@orgvue.com>, giving them login details.
+Each new User will receive the following email from [[donotreply@orgvue.com]()](), giving them login details.
 
 ![](A1-018.exampleemail.png)
 
