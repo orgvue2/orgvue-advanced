@@ -50,7 +50,7 @@ RBAC can be implemented at property level within a dataset. To limit a user’s 
 **Note**: setting a property to ‘Hidden’ will mean that standard users cannot colour by it or use it in any expressions.
 
 
-Tagging the property in a similar way to datasets allows access to specific users. In this example, the default security is set to Hidden – normal users will not see this property (including when it is used in expressions). However, users tagged as ‘hrsecure’ will be able to view and edit this property.
+Tagging the property in a similar way to datasets allows access to specific users. In this example, the default security is set to Hidden – normal users will not see this property (including when it is used in expressions). However, users tagged as `hrsecure` will be able to view and edit this property.
 
 ![](A1-007.RBACpropertylevel2.png)
 
