@@ -33,7 +33,7 @@ Edit the Properties of the Account Node in the same way you would for any other 
 
 ##Send out OrgVue login details to the new user(s)
 
-Once you’ve configured the new accounts, save the dataset to send out OrgVue login details to the new Users. Only the users with ‘Enabled: true’ which have been newly-added to the list will receive an email from ‘donotreply@orgvue.com’ with login and password instructions.
+Once you’ve configured the new accounts, save the dataset to send out OrgVue login details to the new Users. Only the users with ‘Enabled: true’ which have been newly-added to the list will receive an email from [donotreply@orgvue.com]() with login and password instructions.
 
 ![](A1-017.sendlogin.png)
 
