@@ -14,7 +14,7 @@
   * Actions: outsourced, redundant, relocate, reassigned, new, unchanged 
 
 **Note:** Datasets to use: 1505 Dataset (clean)
-![](3A-020.visualiseimpact.png)
+
 ## How-to summary
 
 ###Set-up a Branch
@@ -35,6 +35,8 @@
 
 
 ###Visualise the Impact
+
+![](3A-020.visualiseimpact.png)
 
 1. View the areas affected by changes using various visualisations in **Tree view**
 2. Use **Changes Report  Dashboard** to see the differences against the baseline (original scenario)
