@@ -27,7 +27,7 @@ Using RBAC method, the dataset owner or Admin can set the level of Users' access
 | -- | -- |
 | Invisible | (no tag) |
 | Read only | `view:user` |
-| Update only | `update:it,op`s |
+| Update only | `update:it,ops` |
 | Edit | `edit:hr` |
 
 ![](A1-005.datasetlevel3.png)
