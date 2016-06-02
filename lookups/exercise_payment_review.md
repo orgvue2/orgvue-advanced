@@ -70,6 +70,7 @@ Identify the gap between actual and target salaries per department:
 ###Convert salary in local currency into GBP
 
 1. Create a new property named ‘Salary GBP’ using the below Expression to calculate converted: `salarynode.math("currentsalary*country.exchangerate")`
+
 ![](A2-013.localcurrencycode.png)
 
 2. Now new ‘Salary GBP’ property is added and populated with values
@@ -89,7 +90,8 @@ Identify the gap between actual and target salaries per department:
 
 ##Calculate the difference between actual and target salary
 
-1. Add a property named ‘Salary Gap’ using the below Expression to automatically fill in the difference between actual and target salary: `node.math("salarygbp-grade.targetsalarygbp"` 
+1. Add a property named ‘Salary Gap’ using the below Expression to automatically fill in the difference between actual and target salary: `node.math("salarygbp-grade.targetsalarygbp")` 
+**
 ![](A2-013.localcurrencycode.png)
 
 2. Notice that new ‘Salary Gap’ property is added and populated with values
