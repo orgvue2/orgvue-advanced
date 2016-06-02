@@ -25,7 +25,7 @@ Identify the gap between actual and target salaries per department:
 
 1. **Get actual salary in GBP**
   2.  **Look up** exchange rate for each country from Country dataset  
-  3.  Create a property for salary in GBP using ** *Expressions* ** 
+  3.  Create a property for salary in GBP using **Expressions** 
   
 2. **Get target salary by grade**
   3. **Look up** target salary for each employee based on grade
