@@ -1,4 +1,6 @@
-# Related blog posts
+#Further resources
+
+## Related blog posts
 
 [Process Mapping – Understand what your organisation really does](http://blog.orgvue.com/process-mapping-understand-organisation-really/)
 
