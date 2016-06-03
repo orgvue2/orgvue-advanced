@@ -46,7 +46,7 @@ Once a lookup has been defined, any property in the lookup dataset is available 
 Expression mode is useful to create a lookup list on a manually entered options for the drop-down. 
 Make sure the syntax is correct. Enclose each item for the drop-down in quotation marks, separate each with a comma, and surround the whole expression in square brackets:
 
-`[“item1”,“item2”, … ,“itemX”]`
+`["item1","item2", … ,"itemX"]`
 
 
 ![](A2-008.expmodeeditprop.png)
