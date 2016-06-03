@@ -19,7 +19,7 @@
 * [Responsibility mapping](responsibility_mapping/readme.md)
    * [Links](responsibility_mapping/links.md)
    * [Exercise: RAS mapping](responsibility_mapping/exercise_ras_mapping.md)
-   * [Further Reading](responsibility_mapping/further_reading.md)
+   * [Further resources](responsibility_mapping/further_reading.md)
 * [Process mapping (Links - numbers)](process_mapping/readme.md)
    * [Exercise: Activity Analysis](process_mapping/exercise_activity_analysis.md)
    * [Exercise: Process re-design](process_mapping/exercise_process_re-design.md)
