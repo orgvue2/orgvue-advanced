@@ -1,3 +1,10 @@
+##OrgVue Branching allows scenario modelling in live baseline and charts the net effect of changes
+
+![](3-001x.scenariomodelling.png)
+
+**Note**: Changes made in the Branch can be saved, and will still appear on the Changes Report
+
+
 # Branching Exercise: Re-organisation by planning group
 
 ###Situation
