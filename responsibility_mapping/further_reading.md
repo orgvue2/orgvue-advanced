@@ -1,4 +1,6 @@
-# Related Blog Posts
+#Further resources
+
+## Related blog posts
 
 [RASI without tears. How we helped a sleepless consultant avoid hours wasted in Excel and Powerpoint…](http://blog.orgvue.com/rasi-without-tears-how-we-helped-a-sleepless-consultant-avoid-hours-wasted-in-excel-and-powerpoint/)
 
