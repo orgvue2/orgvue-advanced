@@ -23,7 +23,7 @@ Review current responsibilities linked from Roles to Processes :
 
 ###Set up Roles and Processes Datasets
 
-![](4A-011.rollsprocesses.png)
+![](4A-011a.rollsprocesses.png)
 
 1. Create a dataset in **Role**s tab based on the roles hierarchy
 2. Create a dataset in **Processes** tab based on the defined processes
